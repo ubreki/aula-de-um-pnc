@@ -22,5 +22,7 @@
 			echo "<h1>???</h1>";
 			echo "<p>Como veio parar aq?</p>\n";
 	?>
+	<br><br><br><br><br><br>
+	<a href="index.php"><-- Page 1</a>
 	</body>
 </html>

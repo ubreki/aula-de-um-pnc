@@ -1,11 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Aurora Boreal</title>
+  <style>
+    /* Definindo a paleta de cores */
+    :root {
+      --roxo-escuro: #4B2F77;
+      --azul-escuro: #2A4B7C;
+      --azul-profundo: #1D3C6A;
+      --verde-escuro: #1D6B55;
+      --cinza-escuro: #333333;
+      --cinza-claro: #E1E1E1;
+      --branco-neve: #FFFFFF;
+    }
+
+    /* Resetando algumas margens e preenchimentos padrão */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilo do body */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--cinza-escuro);
+      color: var(--branco-neve);
+      line-height: 1.6;
+    }
+
+    /* Cabeçalho */
+    header {
+      background-color: var(--azul-escuro);
+      color: var(--branco-neve);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    /* Barra de navegação */
+    nav {
+      background-color: var(--roxo-escuro);
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: var(--branco-neve);
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2rem;
+    }
+
+    nav a:hover {
+      color: var(--azul-profundo);
+    }
+
+    /* Seção principal */
+    main {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      color: var(--azul-escuro);
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      color: var(--cinza-claro);
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: var(--roxo-escuro);
+      color: var(--branco-neve);
+      text-align: center;
+      padding: 15px;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+
+    /* Botões */
+    button {
+      background-color: var(--verde-escuro);
+      color: var(--branco-neve);
+      padding: 15px 30px;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: var(--azul-profundo);
+      color: var(--branco-neve);
+    }
+  </style>
 </head>
 <body>
-    
+
+  <header>
+    <h1>Aurora Boreal</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Sobre</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <main>
+    <h2>Explore a Beleza da Aurora Boreal</h2>
+    <p>Vivencie a magia do céu iluminado com os tons vibrantes do roxo e azul. Um espetáculo da natureza.</p>
+    <button>Saiba mais</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aurora Boreal. Todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>
